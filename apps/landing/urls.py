@@ -1,4 +1,4 @@
-from apps.landing.views import Landing
+from views import Landing
 from django.conf.urls import url
 
 urlpatterns = [

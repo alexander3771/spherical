@@ -5,8 +5,7 @@
 *.iml
 
 ## Directory-based project format:
-.idea/
-.env/
+.env*/
 # if you remove the above rule, at least ignore the following:
 
 # User-specific stuff:
@@ -110,7 +109,9 @@ target/
 ### Example user template
 
 # IntelliJ project files
-.idea
-*.iml
+.idea/
 out
 gen
+
+# SQLite DB
+*.sqlite3
